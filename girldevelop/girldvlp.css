@@ -1,0 +1,31 @@
+/*
+* Krissy Kanu
+* 5/7/19
+* Project Name and Description */
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body properties here */
+
+body {font-family: Arial, Helvetica, sans-serif;
+      font-size: 20pt; 
+      background-color: floralwhite;}
+
+h1 {font-family: Lucida Handwriting, cursive;}
+
+h2 {font-family: Lucida Handwriting, cursive;}
+
+#logo {float: center;
+       width: 1300px;}
+#laptop{float: right;
+        width: 520px;}
+#girls {float: right;
+        width: 520px;}
+
+a:hover, a:focus {color: hotpink;
+    font-size: 200%;}
+
