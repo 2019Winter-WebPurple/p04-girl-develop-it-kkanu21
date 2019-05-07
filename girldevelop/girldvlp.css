@@ -1,7 +1,7 @@
 /*
 * Krissy Kanu
 * 5/7/19
-* Project Name and Description */
+* Girl Develop It Project */
 
 /* The universal selector */
 
@@ -13,19 +13,23 @@
 
 body {font-family: Arial, Helvetica, sans-serif;
       font-size: 20pt; 
-      background-color: floralwhite;}
+      background-color: floralwhite;} /* color and font info for the entire page */
 
-h1 {font-family: Lucida Handwriting, cursive;}
+h1 {font-family: Lucida Handwriting, cursive;} /* font for the h1 */
 
-h2 {font-family: Lucida Handwriting, cursive;}
+h2 {font-family: Lucida Handwriting, cursive;} /* font for h2 */
 
-#logo {float: center;
-       width: 1300px;}
+header { background-color: #EA4954; 
+         text-align: center; }
+
+
+/* the following contains size & floating instructions for the different pictures on the page */
+#logo {clear: both;}
 #laptop{float: right;
         width: 520px;}
 #girls {float: right;
         width: 520px;}
 
 a:hover, a:focus {color: hotpink;
-    font-size: 200%;}
+    font-size: 200%;} /* color change when hovering over a link */
 
